@@ -1,0 +1,46 @@
+{
+  "Basic Transformer": {
+    "architecture": "Encoder-Decoder",
+    "family": "Custom Vanilla Transformer",
+    "adaptation_method": "Trained from Scratch",
+    "total_parameters": 10288888,
+    "trainable_parameters": 10288888,
+    "training_time_sec": 288.4496760368347,
+    "inference_latency_ms": 366.8545305666763,
+    "bleu_score": 0.4826039962255029,
+    "chrf_score": 9.240677935832398
+  },
+  "mT5": {
+    "architecture": "Encoder-Decoder",
+    "family": "mT5-small (Google Multilingual T5)",
+    "adaptation_method": "Pretrained + Fine-Tuning",
+    "total_parameters": 300176768,
+    "trainable_parameters": 300176768,
+    "training_time_sec": 98.0416488647461,
+    "inference_latency_ms": 910.9652221999946,
+    "bleu_score": 0.13416858946759885,
+    "chrf_score": 3.1762045526995735
+  },
+  "LLaMA": {
+    "architecture": "Decoder-Only",
+    "family": "TinyLlama-1.1B / LLaMA Architecture",
+    "adaptation_method": "Instruction Prompting (Zero/Few-Shot)",
+    "total_parameters": 1100048384,
+    "trainable_parameters": 0,
+    "training_time_sec": 0.0,
+    "inference_latency_ms": 2560.877472300035,
+    "bleu_score": 17.044774217135082,
+    "chrf_score": 41.23989632760322
+  },
+  "Gemma": {
+    "architecture": "Decoder-Only",
+    "family": "Gemma-2B (Google DeepMind)",
+    "adaptation_method": "Instruction Prompting (Turn-based)",
+    "total_parameters": 2506172416,
+    "trainable_parameters": 0,
+    "training_time_sec": 0.0,
+    "inference_latency_ms": 43.75260696664706,
+    "bleu_score": 8.372462981695552,
+    "chrf_score": 31.42374022941717
+  }
+}

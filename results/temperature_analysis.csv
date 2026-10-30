@@ -1,0 +1,6 @@
+Temperature,Sampling Mode,BLEU Score,chrF Score,Distinct-1 (Diversity),Distinct-2 (Diversity),Avg Latency (ms)
+0.0,Greedy (Argmax),16.65,43.63,0.7458,0.994,2730.1
+0.3,"Nucleus Top-p (p=0.9, T=0.3)",12.75,41.45,0.7403,1.0,2557.8
+0.7,"Nucleus Top-p (p=0.9, T=0.7)",7.93,37.32,0.753,0.9872,2429.4
+1.0,"Nucleus Top-p (p=0.9, T=1.0)",9.85,32.7,0.8322,1.0,2481.0
+1.2,"Nucleus Top-p (p=0.9, T=1.2)",3.65,30.22,0.7798,0.9873,2304.5

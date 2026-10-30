@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Large model weight checkpoints (>100MB cannot be pushed to standard GitHub)
+*.safetensors
+*.bin
+results/mt5_finetuned/model.safetensors
+results/mt5_finetuned/pytorch_model.bin
+
+# HuggingFace & Torch Hub Caches
+.cache/
+checkpoints/

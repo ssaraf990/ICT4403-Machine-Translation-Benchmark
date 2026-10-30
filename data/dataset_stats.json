@@ -1,0 +1,38 @@
+{
+  "dataset_name": "OPUS-100 (Helsinki-NLP/opus-100)",
+  "source_language": "English (en)",
+  "target_language": "French (fr)",
+  "source_url": "https://huggingface.co/datasets/Helsinki-NLP/opus-100",
+  "official_paper_ref": "Aulamo, M., Sulubacak, U., Virpioja, J., & Tiedemann, J. (2020). OPUS-100 corpus.",
+  "splits": {
+    "train_samples": 10000,
+    "val_samples": 1000,
+    "test_samples": 500
+  },
+  "english_stats": {
+    "avg_word_length": 11.8223,
+    "min_word_length": 3,
+    "max_word_length": 35,
+    "unique_tokens": 23533
+  },
+  "french_stats": {
+    "avg_word_length": 12.5721,
+    "min_word_length": 3,
+    "max_word_length": 35,
+    "unique_tokens": 26976
+  },
+  "sample_pairs": [
+    {
+      "en": "Commission Regulation (EC) No 386/2006",
+      "fr": "Règlement (CE) no 386/2006 de la Commission"
+    },
+    {
+      "en": "2000 January February",
+      "fr": "2000 Janvier Février Mars Avril Mai Juin"
+    },
+    {
+      "en": "EXCEPTION AND NOTES VALID COMMANDS -- The two valid commands allowed for this dialogue are:",
+      "fr": "NOTES ET EXCEPTIONS COMMANDES VALIDES -- Les deux commandes valides permises pour ce dialogue sont:"
+    }
+  ]
+}

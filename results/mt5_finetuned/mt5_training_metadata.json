@@ -1,0 +1,16 @@
+{
+  "model_name": "google/mt5-small",
+  "total_parameters": 300176768,
+  "trainable_parameters": 300176768,
+  "fine_tuning_time_sec": 98.0416488647461,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 15.416504081926847,
+      "val_loss": 6.911319673061371,
+      "duration_sec": 98.04159021377563
+    }
+  ],
+  "train_samples": 150,
+  "val_samples": 30
+}

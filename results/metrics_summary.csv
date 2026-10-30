@@ -1,0 +1,5 @@
+Model,Architecture,Adaptation Method,Total Parameters,BLEU Score,chrF Score,Inference Latency (ms/sent),Training Time (s)
+Basic Transformer,Encoder-Decoder,Trained from Scratch,"10,288,888",0.48,9.24,366.85,288.4
+mT5,Encoder-Decoder,Pretrained + Fine-Tuning,"300,176,768",0.13,3.18,910.97,98.0
+LLaMA,Decoder-Only,Instruction Prompting (Zero/Few-Shot),"1,100,048,384",17.04,41.24,2560.88,N/A (Prompting)
+Gemma,Decoder-Only,Instruction Prompting (Turn-based),"2,506,172,416",8.37,31.42,43.75,N/A (Prompting)
