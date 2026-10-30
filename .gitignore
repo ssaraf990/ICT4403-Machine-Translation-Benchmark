@@ -21,3 +21,7 @@ results/mt5_finetuned/pytorch_model.bin
 # HuggingFace & Torch Hub Caches
 .cache/
 checkpoints/
+
+# Submission Word and PDF files
+*.docx
+*.pdf
